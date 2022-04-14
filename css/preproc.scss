@@ -931,6 +931,12 @@ footer {
 .mr_top {
     margin-top: 0 !important;
     padding-top: 175px;
+    @include _768 {
+        padding-top: 280px !important;
+    }
+    @include _425 {
+        padding-top: 130px !important;
+    }
 }
 
 .services_page {
